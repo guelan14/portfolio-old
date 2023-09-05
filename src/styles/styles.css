@@ -1,0 +1,13 @@
+.home {
+  background: url("../../public/images/backgroundIntro.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding-top: 100px;
+}
+
+.navbar {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
