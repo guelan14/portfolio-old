@@ -14,15 +14,12 @@ export const Home = () => {
             <p>Frontend / Backend developer</p>
           </div>
           <div className="col-7 text-center">
-            <img
-              className="profilePhoto"
-              src="../../public/images/profilePhoto.jpg"
-            />
+            <img className="profilePhoto" src="../../images/profilePhoto.jpg" />
 
             <div className="row text-center mt-4">
               <div className="col">
                 <a
-                  href="../../public/files/Neumann Miguel Angel CV english.pdf"
+                  href="../../files/Neumann Miguel Angel CV english.pdf"
                   class="myButton"
                   download
                 >
@@ -31,7 +28,7 @@ export const Home = () => {
               </div>
               <div className="col">
                 <a
-                  href="../../public/files/Neumann Miguel Angel CV english.pdf"
+                  href="../../files/Neumann Miguel Angel CV english.pdf"
                   target="blank"
                   class="myButton"
                 >
