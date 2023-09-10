@@ -1,0 +1,85 @@
+#home {
+  height: 100vh;
+  margin-top: 3rem;
+  background-image: url("../../public/images/background.jpg");
+  background-size: cover; /* Esta propiedad ajusta la imagen para cubrir todo el ancho del elemento contenedor */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-position: center; /* Centra la imagen en el contenedor */
+  text-align: left;
+}
+
+.verticalOrange {
+  background-color: rgb(207, 142, 20);
+  width: 20%;
+  right: 0;
+}
+
+.hello {
+  font-size: 8rem;
+  color: rgb(255, 255, 255);
+  display: flex;
+}
+.hello2 {
+  color: rgba(255, 166, 0, 0.853);
+  font-size: 8rem;
+  display: flex;
+}
+
+.rowMarginTop {
+  margin-top: 1rem;
+}
+
+h1 {
+  color: rgb(207, 207, 207);
+  font-size: 5rem;
+  text-transform: initial;
+  padding-bottom: 10rem;
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+  font-size: 4rem;
+}
+
+p {
+  color: rgb(211, 211, 211);
+  font-size: 1.3rem;
+}
+
+.profilePhoto {
+  border-radius: 10%;
+  object-fit: cover;
+  width: 45rem;
+  height: auto;
+}
+
+.aboutPhoto {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 25rem;
+  height: auto;
+}
+
+.myButton {
+  box-shadow: inset 0px 1px 0px 0px #eae3e3;
+  background: linear-gradient(to bottom, #ecc286 5%, #89550d 100%);
+  border-radius: 6px;
+  border: 1px solid #000000;
+  display: inline-block;
+  cursor: pointer;
+  color: #333333;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #807946;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+  background-color: #ffab23;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}

@@ -2,8 +2,9 @@
 import { Home } from "./components/Home";
 import { NavBar } from "./components/NavBar";
 import { Footer } from "./components/Footer";
-import { Proyects } from "./components/Proyects";
+import { Projects } from "./components/Projects";
 import { About } from "./components/About";
+import { Contact } from "./components/Contact";
 import { ContadorApp } from "./pruebas/ContadorApp";
 import { ListadoApp } from "./pruebas/ListadoApp";
 import { UserApp } from "./pruebas/UserApp";
@@ -11,10 +12,11 @@ import { UserApp } from "./pruebas/UserApp";
 function App() {
   return (
     <>
-      <NavBar />
       <Home />
-      <Proyects />
+      <NavBar />
       <About />
+      <Projects />
+      <Contact />
       <Footer />
     </>
   );

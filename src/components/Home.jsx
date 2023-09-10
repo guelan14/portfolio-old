@@ -2,14 +2,46 @@ import React from "react";
 
 export const Home = () => {
   return (
-    <div class="home">
-      <p class="text-light">Miguel Angel Neumann</p>
-      <p class="text-light ">
-        Soy un programador fullstack con una mente abierta a la investigación
-        constante. Este es mi portfolio, donde puedes explorar mis proyectos y
-        avances en el desarrollo web. Si estás interesado en colaborar o tienes
-        alguna pregunta, no dudes en contactarme.
-      </p>
-    </div>
+    <section id="home" className="m-0">
+      <div className="verticalOrange">Migue</div>
+      <div className="container">
+        <p className="hello pt-4">
+          Hello<p className="hello2">o.</p>
+        </p>
+        <div className="row rowMarginTop">
+          <div className="col-4">
+            <h2>I am Migue</h2>
+            <p>Frontend / Backend developer</p>
+          </div>
+          <div className="col-7 text-center">
+            <img
+              className="profilePhoto"
+              src="../../public/images/profilePhoto.jpg"
+            />
+
+            <div className="row text-center mt-4">
+              <div className="col">
+                <a
+                  href="../../public/files/Neumann Miguel Angel CV english.pdf"
+                  class="myButton"
+                  download
+                >
+                  Download CV
+                </a>
+              </div>
+              <div className="col">
+                <a
+                  href="../../public/files/Neumann Miguel Angel CV english.pdf"
+                  target="blank"
+                  class="myButton"
+                >
+                  View CV
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 };
