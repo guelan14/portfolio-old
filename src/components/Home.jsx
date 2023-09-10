@@ -19,7 +19,7 @@ export const Home = () => {
             <div className="row text-center mt-4">
               <div className="col">
                 <a
-                  href="../../files/Neumann Miguel Angel CV english.pdf"
+                  href="../../files/NeumannMiguelAngelCV.pdf"
                   class="myButton"
                   download
                 >
@@ -28,7 +28,7 @@ export const Home = () => {
               </div>
               <div className="col">
                 <a
-                  href="../../files/Neumann Miguel Angel CV english.pdf"
+                  href="../../files/NeumannMiguelAngelCV.pdf"
                   target="blank"
                   class="myButton"
                 >

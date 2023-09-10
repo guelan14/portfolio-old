@@ -19,7 +19,7 @@ export const About = () => {
         </p>
         <div className="row pt-5">
           <div className="col-4 ">
-            <img className="aboutPhoto" src="../../images/abouteMe.jpg" />
+            <img className="aboutPhoto" src="../../images/abouteMePhoto.jpg" />
           </div>
           <div className="col-6">
             <p></p>
