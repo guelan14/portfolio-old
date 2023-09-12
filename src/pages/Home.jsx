@@ -3,9 +3,8 @@ import React from "react";
 export const Home = () => {
   return (
     <section id="home" className="m-0">
-      <div className="verticalOrange">Migue</div>
-      <div className="container">
-        <p className="hello pt-4">
+      <div className="container ">
+        <p className="hello pt-4 ">
           Hello<p className="hello2">o.</p>
         </p>
         <div className="row rowMarginTop">
@@ -13,9 +12,11 @@ export const Home = () => {
             <h2>I am Migue</h2>
             <p>Frontend / Backend developer</p>
           </div>
-          <div className="col-7 text-center">
-            <img className="profilePhoto" src="../../images/profilePhoto.jpg" />
-
+          <div className="col-7 text-center photoContainer">
+            <img
+              className="profilePhoto img-fluid"
+              src="../../images/profilePhoto.jpg"
+            />
             <div className="row text-center mt-4">
               <div className="col">
                 <a
