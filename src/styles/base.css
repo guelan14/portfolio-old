@@ -5,6 +5,18 @@ body {
   font-family: "Reem Kufi Fun", sans-serif;
 }
 
+.container {
+  max-width: 70% !important;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  justify-content: left;
+}
+
 .navbar {
   position: fixed;
   width: 100%;

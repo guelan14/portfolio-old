@@ -3,12 +3,15 @@ import React from "react";
 export const About = () => {
   return (
     <section id="about">
-      <div className="container bg-light p-0 h-100  ">
+      <div className="container  p-0 h-100  ">
         <h2 className="pt-4 pb-4 ">About Me</h2>
 
         <div className="row ">
-          <div className="col-4 text-center">
-            <img className="aboutPhoto" src="../../images/abouteMePhoto.jpg" />
+          <div className="col-6 text-end">
+            <img
+              className="aboutPhoto img-fluid"
+              src="../../images/abouteMePhoto.jpg"
+            />
           </div>
           <div className="col-4 text-left ">
             <p>
@@ -18,21 +21,43 @@ export const About = () => {
               digital solutions that captivate users.
             </p>
             <p>
-              Beyond coding, I immerse myself in music, sports, and drawing,
-              channeling my creativity and enhancing my well-rounded
-              perspective. Welcome to my portfolio, where you'll find a blend of
-              technical expertise and artistic flair.
+              Beyond coding and studing, I immerse myself in music, sports, and
+              drawing, channeling my creativity and enhancing my well-rounded
+              perspective.
             </p>
           </div>
         </div>
-        <div className="row-fluid text-center">
-          <p>Tecnologies</p>
-          <div>React Django </div>
-          <p>programming languages </p>
-          <div>• C / C++ • Python • Sql • Html • Css • Microsoft Office</div>
-          <p>Curses</p>
-          <p>Idioms</p>
-          <p>Native Spanish, English B2 and German B1</p>
+        <div className="container text-center text-light">
+          <p className="pt-5 p-b3">SKILLS:</p>
+          <div className="row-fluid text-start d-flex  ">
+            <ul>
+              <li>Tecnologies:</li>
+              <li>React Django</li>
+            </ul>
+            <ul>
+              <li>Programming Lenguajes</li>
+              <li>C / C++</li>
+              <li>Python</li>
+              <li>Sql</li>
+              <li>Html</li>
+              <li>Css</li>
+              <li>Microsoft Office</li>
+            </ul>
+            <ul>
+              <li>Curses:</li>
+              <li>
+                Practical Curse Django: Web Development Backend with Python
+              </li>
+              <li>The Complete 2023 Web Development Bootcamp</li>
+              <li>Ultimate AWS Certified Cloud Practitioner – 2023</li>
+              <li>SQL: Creation of databases</li>
+              <li>First steps of frontend development</li>
+            </ul>
+            <ul>
+              <li>Native Spanish</li>
+              <li> English B2 and German B1</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
