@@ -10,17 +10,14 @@ function App() {
   return (
     <>
       <Home />
-      <NavBar />
+
       <About />
       <Projects />
       <Contact />
+      <NavBar />
       <Footer />
     </>
   );
 }
 
 export default App;
-
-//<Footer />
-//<ContadorApp value={0} />
-//<ListadoApp />F

@@ -10,18 +10,18 @@
 }
 
 #home .homeTittle {
-  min-width: 80%;
+  width: 80%;
 }
 
 #home .homeTittle p {
-  font-size: 8rem;
+  font-size: 7rem;
   color: rgb(255, 255, 255);
   display: flex;
 }
 
 #home .homeTittle p p {
   color: rgba(255, 166, 0, 0.853);
-  font-size: 8rem;
+  font-size: 7rem;
   display: flex;
 }
 
@@ -43,18 +43,6 @@
 
 .rowMarginTop {
   margin-top: 1rem;
-}
-
-h1 {
-  color: rgb(207, 207, 207);
-  font-size: 20rem;
-  text-transform: initial;
-  padding-bottom: 10rem;
-}
-
-#home h2 {
-  color: rgb(255, 255, 255);
-  font-size: 4rem;
 }
 
 .profilePhoto {

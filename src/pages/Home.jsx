@@ -2,7 +2,7 @@ import React from "react";
 
 export const Home = () => {
   return (
-    <section id="home" className="m-0">
+    <section id="home">
       <div className="homeTittle">
         <p>
           Hello<p>o.</p>

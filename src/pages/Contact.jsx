@@ -11,13 +11,11 @@ import {
 export const Contact = () => {
   return (
     <section id="contact" className=" pb-5">
-      <div className="content">
-        <h2>contact me</h2>
-        <p>
-          ASDASDASDPIKASDIO KASOIDJ ASOIUDJ ASOIDJ ASOIJDASOIJD OAISJD IOASDJ
-          AOISJD OSAIDJ OIAS
-        </p>
+      <div className="customTittle text-center">
+        <h2>Contact me</h2>
+        <br></br>
       </div>
+
       <div className="customContainer">
         <div className="contactInfo">
           <div className="box">
