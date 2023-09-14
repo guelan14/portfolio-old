@@ -1,6 +1,11 @@
 #about {
-  height: 100vh;
+  min-height: 100vh;
+  padding: 50px 100px;
   background-color: rgb(0, 0, 0);
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .aboutPhoto {
