@@ -2,11 +2,6 @@ import React from "react";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faInstagram,
-  faLinkedin,
-  faSquareGithub,
-} from "@fortawesome/free-brands-svg-icons";
 
 export const Contact = () => {
   return (
@@ -39,28 +34,6 @@ export const Contact = () => {
             <div className="text">
               <h3>Adress</h3>
               <p>miguelangelneumann@gmail.com</p>
-            </div>
-          </div>
-          <div className="socialBox">
-            <div className="text ">
-              <h3>Socials Media</h3>
-              <div className="socialIcons">
-                <div className="icon">
-                  <a href="https://github.com/guelan14">
-                    <FontAwesomeIcon icon={faSquareGithub} />
-                  </a>
-                </div>
-                <div className="icon">
-                  <a href="https://www.linkedin.com/in/miguel-angel-neumann-a45639229">
-                    <FontAwesomeIcon icon={faLinkedin} />
-                  </a>
-                </div>
-                <div className="icon">
-                  <a href="https://instagram.com/migue_neumann?igshid=YTQwZjQ0NmI0OA==">
-                    <FontAwesomeIcon icon={faInstagram} />
-                  </a>
-                </div>
-              </div>
             </div>
           </div>
         </div>

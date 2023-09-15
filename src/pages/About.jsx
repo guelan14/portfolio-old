@@ -12,13 +12,14 @@ export const About = () => {
             className="img-fluid aboutPhotoImg"
             src="../../images/abouteMePhoto.jpg"
           />
+          <div className="imgName">
+            <h3>Miguel Angel Neumann </h3>
+          </div>
         </div>
         <div className="aboutInfo">
           <p>
-            I'm a creative and dedicated web developer on a continuous journey
-            of learning and growth. My passion for web development is fueled by
-            an insatiable curiosity, driving me to create innovative digital
-            solutions that captivate users.
+            I'm a creative and dedicated person. Now, Im studying Engeneering,
+            and using all this knowladge to
           </p>
           <p>
             Beyond coding and studing, I immerse myself in music, sports, and
@@ -28,6 +29,13 @@ export const About = () => {
         </div>
       </div>
       <div className="aboutSkills">
+        <h2>Skills</h2>
+        <div className="skillCards">
+          <div className="card">Tenologies</div>
+          <div className="card">Programming Lenguajes</div>
+          <div className="card">Curses</div>
+          <div className="card">Idioms</div>
+        </div>
         {/*<ul>
           <li>Tecnologies:</li>
           <li>React Django</li>
