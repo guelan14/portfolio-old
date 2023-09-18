@@ -1,6 +1,7 @@
 #home {
   position: relative;
   min-height: 100vh;
+  width: auto;
   padding: 50px 100px;
   display: flex;
   align-items: center;
@@ -10,6 +11,7 @@
 
 #home .homeTittle {
   width: 80%;
+  padding-top: 10px;
 }
 
 #home .homeTittle p {
@@ -33,15 +35,18 @@
   width: 50%;
   display: flex;
   flex-direction: column;
-  padding-right: 20px;
+  align-items: start;
+  padding-right: 40px;
 }
 
 .customContainer .homeInfo h2 {
   color: rgb(185, 107, 5);
-  font-size: 3.3rem;
+  text-align: start;
+  font-size: 3rem;
 }
 
 .customContainer .homeInfo p {
+  text-align: start;
   margin: 0;
   color: rgb(250, 234, 199);
 }
@@ -89,34 +94,38 @@
 }
 
 #home .customContainer button {
-  width: 75%;
+  text-align: center;
+  width: 100%;
   margin-top: 30px;
 }
 
 .homeStart {
-  margin-top: 20px;
   position: relative;
-  display: inline-block;
-
+  bottom: 0;
   align-items: center;
-  flex-grow: 1;
 }
 
 .homeStart a {
   color: rgb(255, 224, 186);
-  position: absolute;
+  font-size: 30px;
   bottom: 0;
 }
 
 @media (max-width: 1025px) {
-  #home .customContainer {
+  .customContainer {
+    display: flex;
     flex-direction: column;
-    background-color: red;
     text-align: center;
     align-items: center;
+    width: 100%;
   }
 
-  #home {
+  #home .homeTittle {
+    padding-top: 60px;
+  }
+
+  #home,
+  #about {
     position: relative;
     min-height: 100vh;
     padding: 10px 10px;
@@ -124,20 +133,37 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: rgb(179, 59, 59);
   }
+
+  .customContainer .contactInfo .box {
+    padding: 20px;
+    display: flex;
+  }
+
   #home .homePhoto {
-    width: 60%;
+    width: 100%;
+    padding: 0 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   #home .homeInfo {
+    display: flex;
+    align-items: center;
     width: 100%;
+    margin-bottom: 50px;
+    padding: 0;
   }
   #home .homeTittle p,
   #home .homeTittle p p {
-    font-size: 3.7rem;
+    font-size: 5rem;
   }
 
-  #home .customContainer button {
+  #home .customContainer .homeInfo button {
     margin: 10px 0 10px;
     text-align: center;
+    width: 30%;
   }
 }

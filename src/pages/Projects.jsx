@@ -5,14 +5,17 @@ import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 export const Projects = () => {
   return (
     <section id="projects">
-      <div className="custonContainer text-center">
-        <h2>Projects</h2>
-        <div className="justify-content-center"></div>
-        <div className="hola bg-light">asdadd</div>
+      <div className="customTittle">
+        <h2 className="">Projects</h2>
+      </div>
+      <div className="contenido">
+        <div className="customContainer text-center">
+          <p>asdsad</p>
+        </div>
       </div>
       <div className="homeStart text-center">
         <p>Welcome to my portfolio! </p>
-        <a href="#about">
+        <a href="#contact">
           <FontAwesomeIcon icon={faArrowDown} />
         </a>
       </div>

@@ -25,12 +25,29 @@ h2 {
   font-size: 2rem;
 }
 
+.contenido {
+  display: flex;
+  width: 80%;
+  height: 80%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: content-box;
+}
+
 .customContainer {
-  width: 70%;
+  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 30px;
+}
+
+@media (max-width: 1300px) {
+  .customContainer {
+    width: 70%;
+  }
 }
 
 .navbar {
