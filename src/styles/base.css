@@ -35,16 +35,22 @@ h2 {
 
 .navbar {
   width: 100%;
-  background-color: transparent;
+  background-color: orange;
   position: fixed;
   top: 0;
+  padding: 0px;
 }
 
+.nav-hiden {
+  transform: translatey(-100%);
+  opacity: 0;
+}
 .navbar-nav .nav-link,
 .navbar-brand {
   color: rgb(255, 255, 255) !important;
   padding: 10px 15px 10px 15px !important;
   font-size: 1em;
+  text-shadow: 4px black;
 }
 
 .navbar-collapse {

@@ -1,5 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import {
   faInstagram,
   faLinkedin,
@@ -47,10 +48,11 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <div className="homeStart">
-        <p className="m-5 text-center">
-          Welcome to my portfolio! Lets start whit the journey
-        </p>
+      <div className="homeStart text-center">
+        <p>Welcome to my portfolio! </p>
+        <a href="#about">
+          <FontAwesomeIcon icon={faArrowDown} />
+        </a>
       </div>
     </section>
   );

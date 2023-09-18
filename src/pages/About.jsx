@@ -31,36 +31,42 @@ export const About = () => {
       <div className="aboutSkills">
         <h2>Skills</h2>
         <div className="skillCards">
-          <div className="card">Tenologies</div>
-          <div className="card">Programming Lenguajes</div>
-          <div className="card">Curses</div>
-          <div className="card">Idioms</div>
+          <div className="skillCard">
+            {/*<ul>
+              <li>React</li>
+              <li>Django</li>
+  </ul> */}
+            {/*<ul>
+              <li>Programming Lenguajes</li>
+              <li>C / C++</li>
+              <li>Python</li>
+              <li>Sql</li>
+              <li>Html</li>
+              <li>Css</li>
+              <li>Microsoft Office</li>
+</ul>*/}
+            <button>Programming Lenguajes</button>
+          </div>
+          <div className="skillCard">
+            {/*<ul>
+              <li>
+                Practical Curse Django: Web Development Backend with Python
+              </li>
+              <li>The Complete 2023 Web Development Bootcamp</li>
+              <li>Ultimate AWS Certified Cloud Practitioner – 2023</li>
+              <li>SQL: Creation of databases</li>
+              <li>First steps of frontend development</li>
+</ul>*/}
+            <button>Curses</button>
+          </div>
+          <div className="skillCard">
+            {/*<ul>
+              <li>Native Spanish</li>
+              <li> English B2 and German B1</li>
+</ul>*/}
+            <button>Idioms</button>
+          </div>
         </div>
-        {/*<ul>
-          <li>Tecnologies:</li>
-          <li>React Django</li>
-        </ul>
-        <ul>
-          <li>Programming Lenguajes</li>
-          <li>C / C++</li>
-          <li>Python</li>
-          <li>Sql</li>
-          <li>Html</li>
-          <li>Css</li>
-          <li>Microsoft Office</li>
-        </ul>
-        <ul>
-          <li>Curses:</li>
-          <li>Practical Curse Django: Web Development Backend with Python</li>
-          <li>The Complete 2023 Web Development Bootcamp</li>
-          <li>Ultimate AWS Certified Cloud Practitioner – 2023</li>
-          <li>SQL: Creation of databases</li>
-          <li>First steps of frontend development</li>
-        </ul>
-        <ul>
-          <li>Native Spanish</li>
-          <li> English B2 and German B1</li>
-  </ul>*/}
       </div>
     </section>
   );

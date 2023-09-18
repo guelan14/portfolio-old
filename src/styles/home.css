@@ -5,8 +5,6 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: rgb(0, 0, 0);
-  background-size: cover;
 }
 
 #home .homeTittle {
@@ -17,6 +15,7 @@
   font-size: 7rem;
   color: rgb(255, 255, 255);
   display: flex;
+  margin: 0;
 }
 
 #home .homeTittle p p {
@@ -38,6 +37,7 @@
 
 .customContainer .homeInfo h2 {
   color: rgb(185, 107, 5);
+  font-size: 3.3rem;
 }
 
 .customContainer .homeInfo p {
@@ -85,4 +85,24 @@
 
 .customContainer .homePhoto .socialBox .icon a {
   color: rgb(201, 158, 127);
+}
+
+#home .customContainer button {
+  width: 75%;
+  margin-top: 30px;
+}
+
+.homeStart {
+  margin-top: 20px;
+  position: relative;
+  display: inline-block;
+
+  align-items: center;
+  flex-grow: 1;
+}
+
+.homeStart a {
+  color: rgb(255, 224, 186);
+  position: absolute;
+  bottom: 0;
 }

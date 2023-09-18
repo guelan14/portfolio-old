@@ -3,20 +3,25 @@
   min-height: 100vh;
   padding: 50px 100px;
   display: flex;
-  align-items: center;
+  align-items: center !important;
   flex-direction: column;
   background-color: rgb(0, 0, 0);
   background-size: cover;
 }
+#contact .customContainer {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  place-items: center;
+}
 
 .customContainer .contactInfo {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
 }
 
 .customContainer .contactInfo .box {
-  position: relative;
   padding: 20px;
   display: flex;
 }
@@ -45,6 +50,7 @@
   color: #fff;
   flex-direction: column;
   font-weight: 300;
+  box-sizing: border-box;
 }
 
 .customContainer .contactInfo .box .text h3 {
@@ -53,7 +59,7 @@
 }
 
 .contactForm {
-  width: 30%;
+  width: 50%;
   padding: 40px;
   background: #fff;
   border-radius: 10%;
@@ -109,4 +115,23 @@
   cursor: pointer;
   padding: 10px;
   font-size: 18px;
+}
+
+@media (max-width: 1500px) {
+  .contact {
+    padding: 0px;
+  }
+  #contact .customContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .customContainer .contactInfo {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: start;
+  }
+  .custonContainer .contactInfo {
+    margin-bottom: 40px;
+  }
 }
