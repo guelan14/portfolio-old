@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 
 export const About = () => {
   return (
@@ -67,6 +69,12 @@ export const About = () => {
             <button>Idioms</button>
           </div>
         </div>
+      </div>
+      <div className="homeStart text-center">
+        <p>Welcome to my portfolio! </p>
+        <a href="#about">
+          <FontAwesomeIcon icon={faArrowDown} />
+        </a>
       </div>
     </section>
   );
