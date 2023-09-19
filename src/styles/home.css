@@ -95,14 +95,16 @@
 
 #home .customContainer button {
   text-align: center;
-  width: 100%;
+  max-width: 80%;
   margin-top: 30px;
 }
 
 .homeStart {
-  position: relative;
-  bottom: 0;
-  align-items: center;
+  display: grid;
+  align-items: end;
+  padding-top: 30px;
+  grid-template-rows: auto 1fr;
+  flex: 1;
 }
 
 .homeStart a {
@@ -111,7 +113,7 @@
   bottom: 0;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1300px) {
   .customContainer {
     display: flex;
     flex-direction: column;
@@ -142,8 +144,7 @@
   }
 
   #home .homePhoto {
-    width: 100%;
-    padding: 0 20%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
