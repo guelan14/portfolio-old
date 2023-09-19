@@ -9,12 +9,20 @@ import { Footer } from "./components/Footer";
 function App() {
   return (
     <>
-      <Home />
-      <About />
-      <Projects />
-      <Contact />
-      <Footer />
-      <NavBar />
+      <main className="scroll">
+        <div className="scrollContainer">
+          <Home />
+        </div>
+        <div className="scrollContainer">
+          <About />
+        </div>
+        <div className="scrollContainer">
+          <Projects />
+        </div>
+        <div className="scrollContainer">
+          <Contact />
+        </div>
+      </main>
     </>
   );
 }

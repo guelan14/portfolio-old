@@ -104,7 +104,7 @@
   align-items: end;
   padding-top: 30px;
   grid-template-rows: auto 1fr;
-  flex: 1;
+  flex-grow: 1;
 }
 
 .homeStart a {
