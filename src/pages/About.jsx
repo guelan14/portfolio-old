@@ -7,7 +7,6 @@ export const About = () => {
   return (
     <section id="about">
       <div className="customTittle">
-        <Modal />
         <h2 className="">About Me</h2>
       </div>
       <div className="contenido">
@@ -36,46 +35,35 @@ export const About = () => {
         <div className="aboutSkills">
           <h2>Skills</h2>
           <div className="skillCards">
-            <div className="skillCard">
-              {/*<ul>
-              <li>React</li>
-              <li>Django</li>
-  </ul> */}
-              {/*<ul>
-              <li>Programming Lenguajes</li>
-              <li>C / C++</li>
-              <li>Python</li>
-              <li>Sql</li>
-              <li>Html</li>
-              <li>Css</li>
-              <li>Microsoft Office</li>
-</ul>*/}
-              <button>Programming Lenguajes</button>
+            <div className="skillCard skillCard1">
+              <h2>Programming Lenguajes</h2>
+              <ul>
+                <li>C / C++</li>
+                <li>Python</li>
+                <li>Sql</li>
+                <li>Html</li>
+                <li>Css</li>
+                <li>Microsoft Office</li>
+              </ul>
+            </div>
+
+            <div className="skillCard skillCard2">
+              <h2>Lengauges</h2>
+              <ul>
+                <li>Native Spanish</li>
+                <li> English B2 </li>
+                <li>German B1</li>
+              </ul>
             </div>
             <div className="skillCard">
-              {/*<ul>
-              <li>
-                Practical Curse Django: Web Development Backend with Python
-              </li>
-              <li>The Complete 2023 Web Development Bootcamp</li>
-              <li>Ultimate AWS Certified Cloud Practitioner – 2023</li>
-              <li>SQL: Creation of databases</li>
-              <li>First steps of frontend development</li>
-</ul>*/}
-              <button>Curses</button>
+              <p>asdasd</p>
             </div>
-            <div className="skillCard">
-              {/*<ul>
-              <li>Native Spanish</li>
-              <li> English B2 and German B1</li>
-</ul>*/}
-              <button>Idioms</button>
-            </div>
+            <Modal />
           </div>
         </div>
       </div>
       <div className="homeStart text-center">
-        <p>Welcome to my portfolio! </p>
+        <p>Projects</p>
         <a href="#projects">
           <FontAwesomeIcon icon={faArrowDown} />
         </a>

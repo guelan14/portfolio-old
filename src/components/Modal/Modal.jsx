@@ -17,22 +17,30 @@ export default function Modal() {
   return (
     <>
       <button onClick={toggleModal} className="btnModal">
-        Open
+        Courses
       </button>
 
       {modal && (
         <div className="customModal">
           <div onClick={toggleModal} className="overlay"></div>
-          <div className="modalContent">
-            <h2>Hello Modal</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-              perferendis suscipit officia recusandae, eveniet quaerat assumenda
-              id fugit, dignissimos maxime non natus placeat illo iusto!
-              Sapiente dolorum id maiores dolores? Illum pariatur possimus
-              quaerat ipsum quos molestiae rem aspernatur dicta tenetur. Sunt
-              placeat tempora vitae enim incidunt porro fuga ea.
-            </p>
+          <div className="modalPosition">
+            <div className="modalContent">
+              <h2>Courses</h2>
+              <ul>
+                <li>
+                  Practical Curse Django: Web Development Backend with Python
+                </li>
+                <li>The Complete 2023 Web Development Bootcamp</li>
+                <li>Ultimate AWS Certified Cloud Practitioner – 2023</li>
+                <li>SQL: Creation of databases</li>
+                <li>First steps of frontend development</li>
+                <li>The Complete 2023 Web Development Bootcamp</li>
+                <li>Ultimate AWS Certified Cloud Practitioner – 2023</li>
+                <li>SQL: Creation of databases</li>
+                <li>First steps of frontend development</li>
+              </ul>
+            </div>
+
             <button className="closeModal" onClick={toggleModal}>
               CLOSE
             </button>

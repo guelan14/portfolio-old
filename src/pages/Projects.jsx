@@ -4,18 +4,29 @@ import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 
 export const Projects = () => {
   return (
-    <section id="projects">
-      <div className="customTittle">
-        <h2 className="">Projects</h2>
+    <section id="about">
+      <div className="homeTittle">
+        <h2>My Pojects</h2>
       </div>
       <div className="contenido">
-        <div className="customContainer text-center">
-          <p>asdsad</p>
+        <div className="projectsContainer">
+          <div className="projectCard">
+            <p>asdasd</p>
+          </div>
+          <div className="projectCard">
+            <p>asdasd</p>
+          </div>
+          <div className="projectCard">
+            <p>asdasd</p>
+          </div>
+          <div className="projectCard">
+            <p>asdasd</p>
+          </div>
         </div>
       </div>
       <div className="homeStart text-center">
         <p>Welcome to my portfolio! </p>
-        <a href="#contact">
+        <a href="#about">
           <FontAwesomeIcon icon={faArrowDown} />
         </a>
       </div>

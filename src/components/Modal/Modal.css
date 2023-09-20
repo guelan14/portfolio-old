@@ -3,9 +3,8 @@ body.activeModal {
 }
 
 .btnModal {
-  padding: 10px 20px;
-  display: block;
-  margin: 100px auto 0;
+  display: flexbox;
+  flex-grow: 1;
   font-size: 18px;
 }
 
@@ -23,7 +22,7 @@ body.activeModal {
 .overlay {
   background: rgba(49, 49, 49, 0.8);
 }
-.modalContent {
+.modalPosition {
   position: absolute;
   top: 40%;
   left: 50%;
@@ -34,6 +33,23 @@ body.activeModal {
   border-radius: 3px;
   max-width: 600px;
   min-width: 300px;
+}
+
+.modalContent {
+  display: grid;
+  grid-row: auto 1fr;
+  row-gap: 10px;
+  text-align: start;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalContent ul {
+  list-style: none;
+}
+
+.modalContent li {
+  margin-bottom: 20px;
 }
 
 .closeModal {
