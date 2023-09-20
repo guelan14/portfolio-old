@@ -1,11 +1,13 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
+import Modal from "../components/Modal/Modal";
 
 export const About = () => {
   return (
     <section id="about">
       <div className="customTittle">
+        <Modal />
         <h2 className="">About Me</h2>
       </div>
       <div className="contenido">

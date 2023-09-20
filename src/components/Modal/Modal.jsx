@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../../styles/modal.css";
+import "./Modal.css";
 
 export default function Modal() {
   const [modal, setModal] = useState(false);
@@ -8,20 +8,37 @@ export default function Modal() {
     setModal(!modal);
   };
 
+  if (modal) {
+    document.body.classList.add("activeModal");
+  } else {
+    document.body.classList.remove("activeModal");
+  }
+
   return (
     <>
-      <button onClick={toggleModal} className="btn-modal">
+      <button onClick={toggleModal} className="btnModal">
         Open
       </button>
 
-      <div className="modal">
-        <div className="overlay"> </div>
-        <div className="modal-content">
-          <h2 className="text-light"> Hello Modal</h2>
-          <p>asdaOASJDOIAUJSDOASIJDOASIJDOASIJDAOSIDJ</p>
-          <button onClick={toggleModal}>Close</button>
+      {modal && (
+        <div className="customModal">
+          <div onClick={toggleModal} className="overlay"></div>
+          <div className="modalContent">
+            <h2>Hello Modal</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+              perferendis suscipit officia recusandae, eveniet quaerat assumenda
+              id fugit, dignissimos maxime non natus placeat illo iusto!
+              Sapiente dolorum id maiores dolores? Illum pariatur possimus
+              quaerat ipsum quos molestiae rem aspernatur dicta tenetur. Sunt
+              placeat tempora vitae enim incidunt porro fuga ea.
+            </p>
+            <button className="closeModal" onClick={toggleModal}>
+              CLOSE
+            </button>
+          </div>
         </div>
-      </div>
+      )}
     </>
   );
 }
