@@ -21,11 +21,16 @@ export const Home = () => {
             <h2>I am Migue</h2>
             <p className="text-bold">Frontend / Backend developer</p>
             <p>System engineering student</p>
-            <button>Download CV</button>
+            <a
+              href="../../public/files/NeumannMiguelAngelCV.pdf"
+              target="__blank"
+            >
+              Download my CV
+            </a>
           </div>
           <div className="homePhoto">
             <img
-              className="profilePhoto img-fluid"
+              className="profilePhoto "
               src="../../images/profilePhoto.jpg"
             />
             <div className="socialBox">

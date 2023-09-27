@@ -33,31 +33,43 @@ export const About = () => {
           </div>
         </div>
         <div className="aboutSkills">
-          <h2>Skills</h2>
           <div className="skillCards">
             <div className="skillCard skillCard1">
-              <h2>Programming Lenguajes</h2>
-              <ul>
-                <li>C / C++</li>
-                <li>Python</li>
-                <li>Sql</li>
-                <li>Html</li>
-                <li>Css</li>
-                <li>Microsoft Office</li>
-              </ul>
+              <div className="skillTittle">
+                <h2>Programming Lenguajes</h2>
+              </div>
+              <div>
+                <ul>
+                  <li>C/C++</li>
+                  <li>Python</li>
+                  <li>Sql</li>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <li>Html</li>
+                  <li>Css</li>
+                  <li>Js</li>
+                </ul>
+              </div>
             </div>
-
             <div className="skillCard skillCard2">
-              <h2>Lengauges</h2>
-              <ul>
-                <li>Native Spanish</li>
-                <li> English B2 </li>
-                <li>German B1</li>
-              </ul>
+              <div className="skillTittle">
+                <h2>Lenguajes</h2>
+              </div>
+              <table>
+                <tr>
+                  <td>English: B2</td>
+                  <td>German: B1</td>
+                </tr>
+                <tr>
+                  <td colspan="3">Spanish: Native</td>
+                </tr>
+              </table>
             </div>
-            <div className="skillCard">
-              <p>asdasd</p>
-            </div>
+          </div>
+          <div className="skillCard skillCard3">
+            <p>All courses i've taken</p>
             <Modal />
           </div>
         </div>

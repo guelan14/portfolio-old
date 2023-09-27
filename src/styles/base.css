@@ -108,5 +108,5 @@ footer span {
 }
 
 .scrollContainer {
-  scroll-snap-align: center;
+  scroll-snap-align: start;
 }
