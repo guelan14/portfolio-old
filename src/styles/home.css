@@ -8,6 +8,9 @@
   flex-direction: column;
   justify-content: center;
   overflow: hidden;
+  background-image: url("./../../public/images/home3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #home .homeTittle {
@@ -43,7 +46,7 @@
 .customContainer .homeInfo h2 {
   color: rgb(185, 107, 5);
   text-align: start;
-  font-size: 3rem;
+  font-size: 5rem;
 }
 
 .customContainer .homeInfo p {
@@ -55,6 +58,10 @@
   width: 50%;
   display: flex;
   flex-direction: column;
+}
+
+.homePhoto img {
+  filter: drop-shadow(30px -10px 8px #ffffff);
 }
 
 .rowMarginTop {
@@ -112,6 +119,14 @@
   padding-top: 30px;
   grid-template-rows: auto 1fr;
   flex-grow: 1;
+}
+
+.homeStart {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: end;
 }
 
 .homeStart a {

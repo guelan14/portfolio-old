@@ -10,6 +10,7 @@ function App() {
   return (
     <>
       <main className="scroll">
+        <NavBar />
         <div className="scrollContainer">
           <Home />
         </div>

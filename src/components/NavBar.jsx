@@ -3,10 +3,10 @@ import React from "react";
 export const NavBar = () => {
   return (
     <header>
-      <nav class="navbar navbar-expand-lg ">
-        <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid ">
           <a class="navbar-brand" href="#home">
-            O.
+            Migue's Portfolio
           </a>
           <button
             class="navbar-toggler "
@@ -20,24 +20,28 @@ export const NavBar = () => {
             <span class="navbar-toggler-icon "></span>
           </button>
           <div class="collapse navbar-collapse " id="navbarNavDropdown">
-            <ul class="navbar-nav ">
+            <ul class="navbar-nav p-2">
               <li class="nav-item ">
-                <a class="nav-link active " aria-current="page" href="#home">
+                <a
+                  class="nav-link  btn btn-outline-light"
+                  aria-current="page"
+                  href="#home"
+                >
                   Home
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about">
+                <a class="nav-link btn btn-outline-light" href="#about">
                   About
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#projects">
+                <a class="nav-link btn btn-outline-light" href="#projects">
                   Projects
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">
+              <li class="nav-item ">
+                <a class="nav-link btn btn-outline-light" href="#contact">
                   Contact
                 </a>
               </li>
