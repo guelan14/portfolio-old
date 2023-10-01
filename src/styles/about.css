@@ -30,7 +30,7 @@
 
 #about .contenido {
   background-color: rgb(237, 234, 234);
-  border-radius: 600px;
+  border-radius: 20%;
 }
 
 .customContainer .aboutPhoto {
@@ -40,9 +40,8 @@
   align-items: center;
   background-color: rgb(236, 195, 137);
   padding: 40px;
-
   border-top-left-radius: 100px;
-  border-bottom-left-radius: 1cqmax;
+  border-bottom-left-radius: 100px;
 }
 
 .customContainer .aboutPhoto .imgName {
@@ -74,6 +73,7 @@
   align-items: center;
   display: grid;
   width: 100%;
+
   flex-direction: row;
 }
 
