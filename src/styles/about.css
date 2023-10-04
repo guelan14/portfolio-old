@@ -7,7 +7,9 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  background-image: url("./../../public/images/about.jpg");
+  background-image: url("./../../public/images/about2-01.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #about p {
@@ -58,6 +60,9 @@
 .customContainer .aboutPhoto .aboutPhotoImg {
   border-radius: 15%;
   max-width: 80%;
+  box-shadow: 18px -16px 0px 3px rgb(184, 151, 105);
+  -webkit-box-shadow: 18px -16px 0px 3px rgba(184, 151, 105);
+  -moz-box-shadow: 18px -16px 0px 3px rgba(184, 151, 105);
 }
 
 .customContainer .aboutInfo {

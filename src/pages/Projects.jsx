@@ -45,7 +45,7 @@ export const Projects = () => {
                 <p>Center court system</p>
               </div>
               <div className="projectImg">
-                <img src="../../public/images/futbol.jpg" />
+                <img src="../../images/futbol.jpg" />
               </div>
               <div className="projectTecnologies">
                 <div className="projectLenguaje">
@@ -69,7 +69,7 @@ export const Projects = () => {
                 <p>Web Page Hairdressing</p>
               </div>
               <div className="projectImg">
-                <img src="../../public/images/peluqueriaMarlene.png" />
+                <img src="../../images/peluqueriaMarlene.png" />
               </div>
               <div className="projectTecnologies">
                 <div className="projectLenguaje">
@@ -93,7 +93,7 @@ export const Projects = () => {
                 <p>Hairdressing Internal System</p>
               </div>
               <div className="projectImg">
-                <img src="../../public/images/peluqueriaC.png" />
+                <img src="../../images/peluqueriaC.png" />
               </div>
               <div className="projectTecnologies">
                 <div className="projectLenguaje">
@@ -117,7 +117,7 @@ export const Projects = () => {
                 <p>My first Proyect</p>
               </div>
               <div className="projectImg">
-                <img src="../../public/peluqueriaC.png" />
+                <img src="../../peluqueriaC.png" />
               </div>
               <div className="projectTecnologies">
                 <div className="projectLenguaje">
