@@ -7,13 +7,18 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  background-image: url("./../../public/images/about2-01.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #about p {
-  color: rgb(84, 84, 84);
+  color: rgb(63, 58, 58);
+  font-size: 18px;
+}
+
+#about .homeStart p {
+  font-size: 20px;
+  color: white;
 }
 
 #about .customContainer {
@@ -21,8 +26,12 @@
 }
 
 #about h2 {
-  color: black;
+  color: orange;
   text-align: center;
+}
+
+#about .skillTittle h2 {
+  color: rgb(70, 54, 40);
 }
 
 .customTittle {
@@ -31,7 +40,7 @@
 }
 
 #about .contenido {
-  background-color: rgb(237, 234, 234);
+  background-color: rgba(56, 47, 47, 0.6);
   border-radius: 20%;
 }
 
@@ -40,10 +49,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(236, 195, 137);
+  background-color: rgb(219, 139, 85);
   padding: 40px;
   border-top-left-radius: 100px;
   border-bottom-left-radius: 100px;
+  box-shadow: 18px -16px 0px 3px rgb(91, 90, 88);
+  -webkit-box-shadow: 18px -16px 0px 3px rgb(255, 255, 255);
+  -moz-box-shadow: 18px -16px 0px 3px rgb(113, 103, 92);
 }
 
 .customContainer .aboutPhoto .imgName {
@@ -52,7 +64,7 @@
 
 .customContainer .aboutPhoto .imgName h3 {
   text-align: center;
-  color: grey;
+  color: rgb(56, 55, 53);
   font-size: 1.3rem;
   padding-top: 10px;
 }
@@ -60,18 +72,20 @@
 .customContainer .aboutPhoto .aboutPhotoImg {
   border-radius: 15%;
   max-width: 80%;
-  box-shadow: 18px -16px 0px 3px rgb(184, 151, 105);
-  -webkit-box-shadow: 18px -16px 0px 3px rgba(184, 151, 105);
-  -moz-box-shadow: 18px -16px 0px 3px rgba(184, 151, 105);
+  box-shadow: 18px -16px 0px 3px rgb(91, 90, 88);
+  -webkit-box-shadow: 18px -16px 0px 3px rgb(255, 255, 255);
+  -moz-box-shadow: 18px -16px 0px 3px rgb(113, 103, 92);
 }
 
 .customContainer .aboutInfo {
-  width: 50%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   text-align: start;
   background-color: rgb(255, 255, 255);
   padding: 40px;
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 100px;
 }
 
 .aboutSkills {
@@ -83,20 +97,20 @@
 }
 
 .aboutSkills .skillCards {
-  padding-top: 20px;
+  padding-top: 5px;
   display: grid;
   align-items: start;
 }
 
 .aboutSkills .skillCards .skillCard1 {
   width: 100%;
-  background-color: rgb(214, 214, 214);
+  background-color: rgb(155, 150, 142);
   padding: 10px;
 }
 
 .aboutSkills .skillCards .skillCard2 {
   width: 100%;
-  background-color: rgb(214, 214, 214);
+  background-color: rgb(155, 150, 142);
   padding: 10px;
 }
 
@@ -124,7 +138,7 @@
 
 .aboutSkills .skillCards .skillCard2 table {
   width: 100%;
-  color: rgb(195, 116, 52);
+  color: rgb(203, 131, 73);
 }
 
 .skillTittle {
@@ -141,7 +155,7 @@
 
 .aboutSkills .skillCards .skillCard2 ul,
 .aboutSkills .skillCards .skillCard1 ul {
-  color: rgb(180, 176, 176);
+  color: rgb(255, 255, 255);
   list-style: none;
   margin: 0;
   padding: 0;

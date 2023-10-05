@@ -22,8 +22,8 @@ export const Projects = () => {
         <h2>My Pojects</h2>
       </div>
 
-      <div className="swiperContent mt-5 text-center ">
-        <h3>Exploring My Creativity: Featured Projects</h3>
+      <div className="swiperContent  text-center ">
+        <h3 className="mt-2">Exploring My Creativity: Featured Projects</h3>
         <Swiper
           // install Swiper modules
           modules={[Navigation, Pagination, Scrollbar, A11y]}
