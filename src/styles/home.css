@@ -11,6 +11,7 @@
   background-image: url("../../public/images/homedefinitivo.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 #home .contenido {
   background-color: rgba(106, 105, 105, 0.6);
