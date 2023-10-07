@@ -16,7 +16,7 @@ export default function Modal() {
 
   return (
     <>
-      <button onClick={toggleModal} className="btnModal">
+      <button onClick={toggleModal} className="btn btn-outline-dark">
         Courses
       </button>
 
@@ -41,7 +41,7 @@ export default function Modal() {
               </ul>
             </div>
 
-            <button className="closeModal" onClick={toggleModal}>
+            <button className="btn btn-outline-dark" onClick={toggleModal}>
               CLOSE
             </button>
           </div>

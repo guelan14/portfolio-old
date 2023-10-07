@@ -8,6 +8,7 @@ import {
   Navigation,
   Pagination,
   Scrollbar,
+  Autoplay,
   A11y,
 } from "swiper/modules";
 import "swiper/css";
@@ -15,6 +16,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import "swiper/css/autoplay";
 
 export const Projects = () => {
   return (
@@ -27,9 +29,10 @@ export const Projects = () => {
         <h3 className="mt-2">Exploring My Creativity: Featured Projects</h3>
         <Swiper
           // install Swiper modules
-          modules={[Navigation, Pagination, Scrollbar, A11y]}
+          modules={[Navigation, Pagination, Autoplay, Scrollbar, A11y]}
           spaceBetween={50}
           slidesPerView={3}
+          autoplay={true}
           navigation
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
@@ -43,19 +46,24 @@ export const Projects = () => {
               target="__blank"
             >
               <div className="projectTittle">
-                <p>Center court system</p>
+                <h3>Center court system</h3>
               </div>
               <div className="projectImg">
                 <img src="../../images/futbol.jpg" />
               </div>
+
               <div className="projectTecnologies">
-                <div className="projectLenguaje">
-                  <p>Python</p>
+                <div className="projectLenguajes">
+                  <h4>Lenguajes:</h4>
+                  <ul>
+                    <li>Python</li>
+                  </ul>
                 </div>
                 <div className="projectLink">
-                  <p>Links:</p>
+                  <h4>Links:</h4>
                   <a
-                    href="https://github.com/guelan14/sistema-peluqueria"
+                    className="btn btn-outline-light btn-sm"
+                    href="https://github.com/guelan14/sistema-Canchas-Reservas"
                     target="__blank"
                   >
                     Github
@@ -67,22 +75,36 @@ export const Projects = () => {
           <SwiperSlide>
             <div className="projectCard">
               <div className="projectTittle">
-                <p>Web Page Hairdressing</p>
+                <h3>Web Page Hairdressing</h3>
               </div>
               <div className="projectImg">
                 <img src="../../images/peluqueriaMarlene.png" />
               </div>
               <div className="projectTecnologies">
-                <div className="projectLenguaje">
-                  <p>Django</p>
+                <div className="projectLenguajes">
+                  <h4>Lenguajes:</h4>
+                  <ul>
+                    <li>Python</li>
+                    <li>Js</li>
+                    <li>css</li>
+                    <li>sqlite</li>
+                  </ul>
                 </div>
                 <div className="projectLink">
-                  <p>Links:</p>
+                  <h4>Links:</h4>
                   <a
+                    className="btn btn-outline-light btn-sm"
                     href="https://github.com/guelan14/peluqueria-web-complete"
                     target="__blank"
                   >
                     Github
+                  </a>
+                  <a
+                    className="btn btn-outline-light btn-sm"
+                    href="https://www.peluqueriamarlene.com.ar/"
+                    target="__blank"
+                  >
+                    WebSite
                   </a>
                 </div>
               </div>
@@ -91,18 +113,22 @@ export const Projects = () => {
           <SwiperSlide>
             <div className="projectCard">
               <div className="projectTittle">
-                <p>Hairdressing Internal System</p>
+                <h3>Hairdressing Internal System</h3>
               </div>
               <div className="projectImg">
                 <img src="../../images/peluqueriaC.png" />
               </div>
               <div className="projectTecnologies">
-                <div className="projectLenguaje">
-                  <p>C</p>
+                <div className="projectLenguajes">
+                  <h4>Lenguajes:</h4>
+                  <ul>
+                    <li>Python</li>
+                  </ul>
                 </div>
                 <div className="projectLink">
-                  <p>Links:</p>
+                  <h4>Links:</h4>
                   <a
+                    className="btn btn-outline-light btn-sm"
                     href="https://github.com/guelan14/sistema-peluqueria"
                     target="__blank"
                   >

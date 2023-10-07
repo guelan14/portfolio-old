@@ -31,6 +31,11 @@ export const Contact = () => {
               </div>
               <div className="inputBox">
                 <input type="submit" value="send" />
+                <input
+                  type="hidden"
+                  name="_next"
+                  value="https://www.miguelangelneumann.com.ar"
+                />
               </div>
             </form>
           </div>
