@@ -38,33 +38,32 @@ export const About = () => {
               drawing, channeling my creativity and enhancing my well-rounded
               perspective.
             </p>
-            <div className="aboutSkills">
-              <div className="skillCards">
-                <div className="skillCard skillCard1">
-                  <div className="skillTittle">
-                    <h2>Programming Lenguajes</h2>
-                  </div>
 
-                  <ul>
-                    <li>C/C++</li>
-                    <li>Python</li>
-                    <li>Sql</li>
+            <div className="skillCards">
+              <div className="skillCard skillCard1">
+                <div className="skillTittle">
+                  <h2>Programming Lenguajes</h2>
+                </div>
 
-                    <li>Html</li>
-                    <li>Css</li>
-                    <li>Js</li>
-                  </ul>
+                <ul>
+                  <li>C/C++</li>
+                  <li>Python</li>
+                  <li>Sql</li>
+
+                  <li>Html</li>
+                  <li>Css</li>
+                  <li>Js</li>
+                </ul>
+              </div>
+              <div className="skillCard skillCard2">
+                <div className="skillTittle">
+                  <h2>Lenguajes</h2>
                 </div>
-                <div className="skillCard skillCard2">
-                  <div className="skillTittle">
-                    <h2>Lenguajes</h2>
-                  </div>
-                  <ul>
-                    <li>English: B2</li>
-                    <li> German: B1</li>
-                    <li>Spanish: Native</li>
-                  </ul>
-                </div>
+                <ul>
+                  <li>English: B2</li>
+                  <li> German: B1</li>
+                  <li>Spanish: Native</li>
+                </ul>
               </div>
               <div className="skillCard skillCard3">
                 <p>All courses i've taken</p>

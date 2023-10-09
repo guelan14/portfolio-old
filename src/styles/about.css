@@ -25,6 +25,7 @@
 
 #about .customContainer {
   align-items: normal;
+  width: 90%;
 }
 
 #about h2 {
@@ -89,21 +90,13 @@
   -moz-box-shadow: -1px -1px 43px 5px rgba(0, 0, 0, 0.75) inset;
 }
 
-.aboutSkills {
-  align-items: center;
-  display: grid;
-  width: 100%;
-
-  flex-direction: row;
-}
-
-.aboutSkills .skillCards {
+.skillCards {
   padding-top: 5px;
   display: grid;
   align-items: start;
 }
 
-.aboutSkills .skillCards .skillCard1 {
+.skillCards .skillCard1 {
   width: 100%;
   background-color: rgb(219, 171, 94);
   padding: 10px;
@@ -112,7 +105,7 @@
   -moz-box-shadow: -1px -1px 43px 5px rgba(0, 0, 0, 0.75) inset;
 }
 
-.aboutSkills .skillCards .skillCard2 {
+.skillCards .skillCard2 {
   width: 100%;
   background-color: rgb(167, 142, 102);
   padding: 10px;
@@ -121,7 +114,7 @@
   -moz-box-shadow: -1px -1px 43px 5px rgba(0, 0, 0, 0.75) inset;
 }
 
-.aboutSkills .skillCards .skillCard2 ul {
+.skillCards .skillCard2 ul {
   display: flex;
 }
 
@@ -132,15 +125,10 @@
   flex-direction: column;
 }
 
-.aboutSkills .skillCard3 p {
+.skillCard3 p {
   padding-top: 10px;
 
   margin-bottom: 0;
-}
-
-.aboutSkills .skillCards .skillCard2 table {
-  width: 100%;
-  color: rgb(203, 131, 73);
 }
 
 .skillTittle {
@@ -148,15 +136,15 @@
   align-items: center;
 }
 
-.aboutSkills .skillCards h2 {
+.skillCards h2 {
   font-size: 20px;
   width: 100%;
   grid: 1fr;
   margin: 0;
 }
 
-.aboutSkills .skillCards .skillCard2 ul,
-.aboutSkills .skillCards .skillCard1 ul {
+.skillCards .skillCard2 ul,
+.skillCards .skillCard1 ul {
   color: rgb(255, 255, 255);
   list-style: none;
   margin: 0;
@@ -167,7 +155,7 @@
   justify-content: center;
 }
 
-.aboutSkills .skillCard {
+.skillCard {
   align-items: center;
   text-align: center;
   margin: 5px;
@@ -176,6 +164,48 @@
   border-bottom-right-radius: 1000px;
 }
 
-.aboutSkills h2 {
-  text-align: center;
+@media (max-width: 950px) {
+  #about {
+    padding: 50px 10px;
+  }
+
+  #about .aboutInfo p {
+    font-size: 1rem;
+  }
+
+  #about .customContainer {
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+  }
+
+  #about .contenido {
+    width: 95%;
+  }
+
+  #about .aboutInfo {
+    padding-top: 20px;
+    padding: 5px;
+    width: 100%;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  #about .aboutPhoto {
+    padding-top: 20px;
+    padding: 5px;
+    width: 100%;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 0px;
+  }
+
+  #about .aboutPhoto img {
+    width: 30%;
+  }
+
+  .skillCard {
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+  }
 }

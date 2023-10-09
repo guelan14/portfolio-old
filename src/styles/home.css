@@ -190,21 +190,11 @@
     align-items: center;
     width: 80%;
   }
-
+  #home {
+    padding: 50px 10px;
+  }
   #home .homeTittle {
     padding-top: 20px;
-  }
-
-  #home,
-  #about {
-    position: relative;
-    min-height: 100vh;
-    padding: 10px 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: rgb(179, 59, 59);
   }
 
   .customContainer .contactInfo .box {
