@@ -17,6 +17,7 @@
   display: grid;
   grid-template-rows: 1fr auto;
   place-items: center;
+  width: 100%;
 }
 
 .customContainer .contactInfo {
@@ -139,11 +140,7 @@
   background: #a8a3a3;
 }
 
-@media (max-width: 965px) {
-  #contact {
-    padding: 50px 10px;
-  }
-
+@media (max-width: 500px) {
   #contact .customContainer {
     display: grid;
     grid-template-columns: 1fr;
@@ -156,6 +153,13 @@
   }
   .custonContainer .contactInfo {
     margin-bottom: 40px;
+  }
+
+  #projects,
+  #contact,
+  #about,
+  #home {
+    padding: 50px 10px;
   }
 
   .contactForm {

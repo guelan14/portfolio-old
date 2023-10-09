@@ -29,7 +29,10 @@ export const Projects = () => {
         <h3 className="mt-2">Exploring My Creativity: Featured Projects</h3>
         <Swiper
           //breakpoints
-          breakpoints={{ 500: { slidesPerView: 2 } }}
+          breakpoints={{
+            800: { slidesPerView: 2 },
+            1050: { slidesPerView: 3 },
+          }}
           // install Swiper modules
           modules={[Navigation, Pagination, Autoplay, Scrollbar, A11y]}
           spaceBetween={5}

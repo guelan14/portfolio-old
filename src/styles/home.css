@@ -25,7 +25,7 @@
 }
 
 #home .homeTittle p {
-  font-size: 7rem;
+  font-size: 6rem;
   color: rgb(255, 255, 255);
   display: flex;
   margin: 0;
@@ -33,7 +33,7 @@
 
 #home .homeTittle p p {
   color: #ffa600da;
-  font-size: 7rem;
+  font-size: 6rem;
   display: flex;
 }
 
@@ -52,7 +52,7 @@
 .customContainer .homeInfo h2 {
   color: rgb(185, 107, 5);
   text-align: start;
-  font-size: 5rem;
+  font-size: 4rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -148,17 +148,51 @@
   color: orange;
 }
 
-@media (max-width: 1px) {
-  .customContainer {
+@media (max-width: 1400px) {
+  #home .homeInfo h2 {
+    font-size: 3rem;
+  }
+  #home .homeTittle p,
+  #home .homeTittle p p {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 1300px) {
+  #home .homePhoto {
+    width: 50%;
+    display: flex;
+  }
+
+  #home .customContainer {
+    width: 90%;
+  }
+
+  #home .homeInfo h2 {
+    font-size: 3rem;
+  }
+  #home .homeTittle p,
+  #home .homeTittle p p {
+    font-size: 5rem;
+  }
+
+  #home .homeInfo {
+    width: 50%;
+    padding-right: 5px;
+  }
+}
+
+@media (max-width: 950px) {
+  #home .customContainer {
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    width: 100%;
+    width: 80%;
   }
 
   #home .homeTittle {
-    padding-top: 60px;
+    padding-top: 20px;
   }
 
   #home,
@@ -179,11 +213,8 @@
   }
 
   #home .homePhoto {
-    width: 50%;
+    width: 80%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
   }
   #home .homeInfo {
     display: flex;
@@ -197,9 +228,56 @@
     font-size: 5rem;
   }
 
+  #home .homeInfo h2 {
+    font-size: 3rem;
+  }
+
   #home .customContainer .homeInfo button {
     margin: 10px 0 10px;
     text-align: center;
     width: 30%;
+  }
+}
+@media (max-width: 750px) {
+  #home .homeTittle p,
+  #home .homeTittle p p {
+    font-size: 2rem;
+  }
+  #home .homeInfo h2 {
+    font-size: 1.2rem;
+  }
+
+  #home .homeInfo {
+    margin-bottom: 20px;
+  }
+
+  #home .homeInfo p {
+    font-size: 1rem;
+  }
+
+  .homeTittle {
+    padding: 0px !important;
+  }
+  #home .homePhoto {
+    width: 100%;
+    display: flex;
+  }
+  #home .homeTittle {
+    padding-top: 30px;
+  }
+
+  #home .homeStart p {
+    font-size: 1rem;
+  }
+
+  .customContainer .homePhoto .socialBox .icon {
+    min-width: 10px;
+    height: 10px;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 15px;
   }
 }
