@@ -148,7 +148,7 @@
   color: orange;
 }
 
-@media (max-width: 13px) {
+@media (max-width: 1px) {
   .customContainer {
     display: flex;
     flex-direction: column;

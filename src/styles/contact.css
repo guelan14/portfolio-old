@@ -65,10 +65,11 @@
 .customContainer .contactInfo .box .text h3 {
   font-weight: 500;
   color: #da7516;
+  text-align: start;
 }
 
 .contactForm {
-  width: 100%;
+  width: 80%;
   padding: 40px;
   background: #fff;
   border-radius: 60px;
@@ -140,7 +141,7 @@
 
 @media (max-width: 965px) {
   #contact {
-    padding: 10px 10px;
+    padding: 50px 10px;
   }
 
   #contact .customContainer {
@@ -155,5 +156,9 @@
   }
   .custonContainer .contactInfo {
     margin-bottom: 40px;
+  }
+
+  .contactForm {
+    width: 80%;
   }
 }

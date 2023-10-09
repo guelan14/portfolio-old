@@ -5,7 +5,7 @@ export const NavBar = () => {
     <header>
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid ">
-          <a class="navbar-brand" href="#home">
+          <a class="navbar-brand btn btn-outline-light " href="#home">
             Migue's Portfolio
           </a>
           <button

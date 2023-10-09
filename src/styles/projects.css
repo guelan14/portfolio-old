@@ -134,3 +134,9 @@
 .swiper-scrollbar-drag {
   color: rgb(255, 255, 255) !important;
 }
+
+@media screen and (max-width: 500px) {
+  #projects {
+    padding: 50px 10px;
+  }
+}
