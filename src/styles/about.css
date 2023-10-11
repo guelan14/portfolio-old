@@ -171,11 +171,26 @@
   #about .aboutPhoto {
     padding: 20px;
   }
+  #about .contenido {
+    width: 90%;
+  }
+
+  #about {
+    padding: 5px;
+  }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 800px) {
   #about {
     padding: 50px 10px;
+  }
+
+  #about .skillCard {
+    padding: 2px;
+  }
+
+  #about .aboutPhotoImg {
+    display: none;
   }
 
   #about .aboutInfo p {
