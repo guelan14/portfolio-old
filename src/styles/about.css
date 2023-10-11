@@ -52,6 +52,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding: 40px;
   border-top-left-radius: 100px;
   border-bottom-left-radius: 100px;
@@ -162,6 +163,16 @@
   border-radius: 10px;
   border-top-right-radius: 0px;
   border-bottom-right-radius: 1000px;
+  overflow: auto;
+}
+
+@media (max-width: 1250px) {
+  #about .aboutInfo {
+    padding: 20px;
+  }
+  #about .aboutPhoto {
+    padding: 20px;
+  }
 }
 
 @media (max-width: 950px) {

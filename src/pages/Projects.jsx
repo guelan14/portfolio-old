@@ -30,7 +30,7 @@ export const Projects = () => {
         <Swiper
           //breakpoints
           breakpoints={{
-            800: { slidesPerView: 2 },
+            600: { slidesPerView: 2 },
             1050: { slidesPerView: 3 },
           }}
           // install Swiper modules

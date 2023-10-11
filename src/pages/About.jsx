@@ -20,7 +20,7 @@ export const About = () => {
               <h3>Miguel Angel Neumann </h3>
               <a
                 className="btn btn-outline-light"
-                href="../../public/files/NeumannMiguelAngelCV.pdf"
+                href="../../files/NeumannMiguelAngelCV.pdf"
                 target="__blank"
               >
                 Download CV
@@ -44,12 +44,10 @@ export const About = () => {
                 <div className="skillTittle">
                   <h2>Programming Lenguajes</h2>
                 </div>
-
                 <ul>
                   <li>C/C++</li>
                   <li>Python</li>
                   <li>Sql</li>
-
                   <li>Html</li>
                   <li>Css</li>
                   <li>Js</li>

@@ -134,3 +134,39 @@
 .swiper-scrollbar-drag {
   color: rgb(255, 255, 255) !important;
 }
+
+@media (max-width: 750px) {
+  #projects {
+    padding: 50px 10px;
+  }
+
+  #home .homeInfo p {
+    font-size: 1rem;
+  }
+
+  .homeTittle {
+    padding: 0px !important;
+  }
+  #home .homePhoto {
+    width: 100%;
+    display: flex;
+  }
+  #home .homeTittle {
+    padding-top: 30px;
+  }
+
+  #home .homeStart p {
+    font-size: 1rem;
+  }
+
+  .customContainer .homePhoto .socialBox .icon {
+    min-width: 10px;
+    height: 10px;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 15px;
+  }
+}

@@ -53,7 +53,7 @@ export const Contact = () => {
             </div>
             <div className="box">
               <div className="icon">
-                <a href="mailto:miguelangelneumann@gmai.com">
+                <a href="mailto:miguelangelneumann@gmail.com">
                   <FontAwesomeIcon icon={faEnvelope} />
                 </a>
               </div>

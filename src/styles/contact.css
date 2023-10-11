@@ -25,6 +25,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: start;
+  box-sizing: border-box;
 }
 
 .customContainer .contactInfo .box {
@@ -140,9 +141,18 @@
   background: #a8a3a3;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 750px) {
+  #contact {
+    padding: 20px 10px;
+  }
+
+  #contact .box p {
+    word-wrap: break-word;
+  }
+
   #contact .customContainer {
     display: grid;
+    position: relative;
     grid-template-columns: 1fr;
   }
   .customContainer .contactInfo {
@@ -150,9 +160,11 @@
     display: grid;
     grid-template-columns: 1fr;
     align-items: start;
-  }
-  .custonContainer .contactInfo {
     margin-bottom: 40px;
+  }
+
+  .contenido {
+    padding: 10px;
   }
 
   #contact {
