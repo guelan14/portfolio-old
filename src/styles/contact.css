@@ -142,6 +142,9 @@
 }
 
 @media (max-width: 750px) {
+  #contact p {
+    font-size: 16px;
+  }
   #contact {
     padding: 20px 10px;
   }
@@ -149,7 +152,10 @@
   #contact .box p {
     word-wrap: break-word;
   }
-
+  #contact .box {
+    padding: 0px;
+    padding-bottom: 10px;
+  }
   #contact .customContainer {
     display: grid;
     position: relative;

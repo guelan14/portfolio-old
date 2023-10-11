@@ -97,20 +97,26 @@ export const Projects = () => {
                 </div>
                 <div className="projectLink">
                   <h4>Links:</h4>
-                  <a
-                    className="btn btn-outline-light btn-sm"
-                    href="https://github.com/guelan14/peluqueria-web-complete"
-                    target="__blank"
-                  >
-                    Github
-                  </a>
-                  <a
-                    className="btn btn-outline-light btn-sm"
-                    href="https://www.peluqueriamarlene.com.ar/"
-                    target="__blank"
-                  >
-                    WebSite
-                  </a>
+                  <ul>
+                    <li>
+                      <a
+                        className="btn btn-outline-light btn-sm"
+                        href="https://github.com/guelan14/peluqueria-web-complete"
+                        target="__blank"
+                      >
+                        Github
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className="btn btn-outline-light btn-sm"
+                        href="https://www.peluqueriamarlene.com.ar/"
+                        target="__blank"
+                      >
+                        WebSite
+                      </a>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>

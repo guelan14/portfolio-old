@@ -98,7 +98,6 @@
 }
 
 .skillCards .skillCard1 {
-  width: 100%;
   background-color: rgb(219, 171, 94);
   padding: 10px;
   box-shadow: -1px -1px 43px 5px rgba(0, 0, 0, 0.75) inset;
@@ -107,7 +106,6 @@
 }
 
 .skillCards .skillCard2 {
-  width: 100%;
   background-color: rgb(167, 142, 102);
   padding: 10px;
   box-shadow: -1px -1px 43px 5px rgba(0, 0, 0, 0.75) inset;
