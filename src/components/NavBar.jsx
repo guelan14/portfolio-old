@@ -3,7 +3,7 @@ import React from "react";
 export const NavBar = () => {
   return (
     <header>
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-sm">
         <div class="container-fluid ">
           <a class="navbar-brand btn btn-outline-light " href="#home">
             Migue's Portfolio

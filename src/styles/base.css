@@ -59,7 +59,7 @@ h2 {
 
 .navbar-nav .nav-link,
 .navbar-brand {
-  color: rgb(255, 255, 255) !important;
+  color: rgb(226, 226, 226) !important;
   padding: 10px 15px 10px 15px !important;
   font-size: 1em;
   text-shadow: 4px black;
@@ -80,7 +80,7 @@ h2 {
 }
 
 .navbar .navbar-toggler {
-  background-color: white !important;
+  background-color: rgb(226, 226, 226) !important;
 }
 
 .navbar .navbar-toggler:hover {

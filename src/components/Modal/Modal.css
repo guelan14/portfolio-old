@@ -4,8 +4,6 @@ body.activeModal {
 
 .customModal,
 .overlay {
-  width: 100vw;
-  height: 100vh;
   top: 0;
   left: 0;
   right: 0;
@@ -30,7 +28,9 @@ body.activeModal {
 }
 
 .modalContent {
+  overflow-y: scroll !important;
   display: grid;
+  max-height: 60vh;
   grid-row: auto 1fr;
   row-gap: 10px;
   text-align: start;
@@ -41,7 +41,7 @@ body.activeModal {
 .modalContent ul {
   list-style: none;
   display: block !important;
-  background-color: white !important;
+  background-color: rgb(126, 114, 114, 0.2) !important;
 }
 
 .modalContent li {
