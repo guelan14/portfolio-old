@@ -147,23 +147,35 @@
   }
 
   #contact {
-    padding: 20px 10px 10px 10px !important;
+    padding: 50px 10px;
   }
 
   #contact .box p {
-    word-wrap: break-word;
+    font-size: 16px;
   }
   #contact .box {
     padding: 0px;
     padding-bottom: 10px;
   }
+  #contact .box h3 {
+    font-size: 17px;
+  }
+
+  #contact .box .icon {
+    min-width: 40px;
+    height: 40px;
+  }
+  #contact .box a {
+    font-size: 22px;
+  }
+
   #contact .customContainer {
     display: grid;
     position: relative;
     grid-template-columns: 1fr;
   }
   .customContainer .contactInfo {
-    padding: 10px;
+    padding-top: 20px;
     display: grid;
     grid-template-columns: 1fr;
     align-items: start;

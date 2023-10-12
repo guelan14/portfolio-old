@@ -165,6 +165,10 @@
 }
 
 @media (max-width: 1250px) {
+  #about {
+    padding-top: 50px !important;
+    padding: 10px;
+  }
   #about .aboutInfo {
     padding: 20px;
   }
@@ -173,10 +177,6 @@
   }
   #about .contenido {
     width: 90%;
-  }
-
-  #about {
-    padding: 5px;
   }
 }
 

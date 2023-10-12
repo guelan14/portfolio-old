@@ -30,7 +30,7 @@ export const Contact = () => {
                 <span>Type your Message </span>
               </div>
               <div className="inputBox">
-                <input type="submit" value="send" />
+                <input type="submit" value="Send" />
                 <input
                   type="hidden"
                   name="_next"
