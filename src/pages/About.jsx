@@ -21,7 +21,7 @@ export const About = () => {
               <a
                 className="btn btn-outline-light"
                 href="../../files/NeumannMiguelAngelCV.pdf"
-                target="__blank"
+                download
               >
                 Download CV
               </a>
@@ -42,7 +42,7 @@ export const About = () => {
             <div className="skillCards">
               <div className="skillCard skillCard1">
                 <div className="skillTittle">
-                  <h2>Programming Lenguajes</h2>
+                  <h2>Programming Lenguages</h2>
                 </div>
                 <ul>
                   <li>C/C++</li>
@@ -55,7 +55,7 @@ export const About = () => {
               </div>
               <div className="skillCard skillCard2">
                 <div className="skillTittle">
-                  <h2>Lenguajes</h2>
+                  <h2>Lenguages</h2>
                 </div>
                 <ul>
                   <li>English: B2</li>

@@ -189,6 +189,10 @@
     padding: 2px;
   }
 
+  #about .skillCard li {
+    font-size: 0.9rem;
+  }
+
   #about .aboutPhotoImg {
     display: none;
   }

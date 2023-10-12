@@ -59,7 +59,7 @@ h2 {
 
 .navbar-nav .nav-link,
 .navbar-brand {
-  color: rgb(226, 226, 226) !important;
+  color: rgb(255, 255, 255) !important;
   padding: 10px 15px 10px 15px !important;
   font-size: 1em;
   text-shadow: 4px black;
@@ -71,6 +71,10 @@ h2 {
   color: orange !important;
 }
 
+.navbar .navbar-brand a {
+  color: red;
+}
+
 .navbar-collapse {
   flex-grow: 0 !important;
 }
@@ -80,7 +84,7 @@ h2 {
 }
 
 .navbar .navbar-toggler {
-  background-color: rgb(226, 226, 226) !important;
+  background-color: rgb(143, 142, 142) !important;
 }
 
 .navbar .navbar-toggler:hover {
@@ -120,4 +124,10 @@ footer span {
 
 .scrollContainer {
   scroll-snap-align: start;
+}
+
+@media (max-width: 576px) {
+  .navbar .nav-link {
+    background-color: rgba(187, 187, 187, 0.6);
+  }
 }
