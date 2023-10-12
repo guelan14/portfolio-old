@@ -89,6 +89,7 @@ export const Projects = () => {
                 <div className="projectLenguajes">
                   <h4>Lenguajes:</h4>
                   <ul>
+                    <li>Django</li>
                     <li>Python</li>
                     <li>Js</li>
                     <li>css</li>
@@ -152,23 +153,118 @@ export const Projects = () => {
           <SwiperSlide>
             <div className="projectCard">
               <div className="projectTittle">
-                <p>My first Proyect</p>
+                <h3>Notes</h3>
               </div>
               <div className="projectImg">
-                <img src="../../peluqueriaC.png" />
+                <img src="../../images/mys.png" />
               </div>
               <div className="projectTecnologies">
-                <div className="projectLenguaje">
-                  <p>REACT</p>
+                <div className="projectLenguajes">
+                  <h4>Lenguajes:</h4>
+                  <ul>
+                    <li>React</li>
+                    <li>html </li>
+                    <li> css</li>
+                    <li>Js</li>
+                  </ul>
                 </div>
                 <div className="projectLink">
-                  <p>Links:</p>
+                  <h4>Links:</h4>
                   <a
-                    href="https://github.com/guelan14/sistema-peluqueria"
+                    className="btn btn-outline-light btn-sm"
+                    href="https://github.com/guelan14/notesDinamic"
                     target="__blank"
                   >
                     Github
                   </a>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="projectCard">
+              <div className="projectTittle">
+                <h3>Dice Game</h3>
+              </div>
+              <div className="projectImg">
+                <img src="../../images/diceGame.png" />
+              </div>
+              <div className="projectTecnologies">
+                <div className="projectLenguajes">
+                  <h4>Lenguajes:</h4>
+                  <ul>
+                    <li>html </li>
+                    <li>css</li>
+                    <li>Js</li>
+                  </ul>
+                </div>
+                <div className="projectLink">
+                  <h4>Links:</h4>
+                  <ul>
+                    <li>
+                      <a
+                        className="btn btn-outline-light btn-sm"
+                        href="https://github.com/guelan14/dice-game"
+                        target="__blank"
+                      >
+                        Github
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className="btn btn-outline-light btn-sm"
+                        href="https://guelan14.github.io/dice-game/"
+                        target="__blank"
+                      >
+                        WebSite
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="projectCard">
+              <div className="projectTittle">
+                <h3>Portfolio</h3>
+              </div>
+              <div className="projectImg">
+                <img src="../../images/portfolio.png" />
+              </div>
+              <div className="projectTecnologies">
+                <div className="projectLenguajes">
+                  <h4>Lenguajes:</h4>
+                  <ul>
+                    <li>react</li>
+                    <li>html </li>
+                    <li>css</li>
+                    <li>js</li>
+                  </ul>
+                </div>
+                <div className="projectLink">
+                  <h4>Links:</h4>
+                  <ul>
+                    <li>
+                      <a
+                        className="btn btn-outline-light btn-sm"
+                        href="https://github.com/guelan14/portfolio"
+                        target="__blank"
+                      >
+                        Github
+                      </a>
+                    </li>
+
+                    <li>
+                      <a
+                        className="btn btn-outline-light btn-sm"
+                        href="https://miguelangelneumann.com.ar"
+                        target="__blank"
+                      >
+                        WebSite
+                      </a>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
