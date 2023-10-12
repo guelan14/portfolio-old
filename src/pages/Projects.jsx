@@ -21,9 +21,9 @@ import "swiper/css/autoplay";
 export const Projects = () => {
   return (
     <section id="projects">
-      <div className="customTittle w-100 text-center">
+      <header className="customTittle w-100 text-center">
         <h2>My Pojects</h2>
-      </div>
+      </header>
 
       <div className="swiperContent  text-center ">
         <h3 className="mt-2">Exploring My Creativity: Featured Projects</h3>

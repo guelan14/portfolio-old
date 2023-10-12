@@ -10,15 +10,15 @@ import {
 export const Home = () => {
   return (
     <section id="home">
-      <div className="homeTittle">
+      <header className="homeTittle">
         <p>
-          Hello<p>o.</p>
+          Hello<span>o.</span>
         </p>
-      </div>
+      </header>
       <div className="contenido">
         <div className="customContainer">
           <div className="homeInfo">
-            <h2>I am Migue</h2>
+            <h1>I am Migue</h1>
             <p className="text-bold">Frontend / Backend developer</p>
             <p>System engineering student</p>
           </div>

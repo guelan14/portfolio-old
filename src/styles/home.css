@@ -31,7 +31,7 @@
   margin: 0;
 }
 
-#home .homeTittle p p {
+#home .homeTittle span {
   color: #ffa600da;
   font-size: 6rem;
   display: flex;
@@ -47,6 +47,14 @@
   flex-direction: column;
   align-items: start;
   padding-right: 40px;
+}
+
+.customContainer .homeInfo h1 {
+  color: rgb(185, 107, 5);
+  text-align: start;
+  font-size: 4rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding-bottom: 5px;
 }
 
 .customContainer .homeInfo h2 {
@@ -149,11 +157,11 @@
 }
 
 @media (max-width: 1400px) {
-  #home .homeInfo h2 {
+  #home .homeInfo h1 {
     font-size: 3rem;
   }
   #home .homeTittle p,
-  #home .homeTittle p p {
+  #home .homeTittle span {
     font-size: 5rem;
   }
 }
@@ -168,11 +176,8 @@
     width: 90%;
   }
 
-  #home .homeInfo h2 {
-    font-size: 3rem;
-  }
   #home .homeTittle p,
-  #home .homeTittle p p {
+  #home .homeTittle span {
     font-size: 5rem;
   }
 
@@ -210,16 +215,12 @@
     display: flex;
     align-items: center;
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     padding: 0;
   }
   #home .homeTittle p,
-  #home .homeTittle p p {
+  #home .homeTittle span {
     font-size: 5rem;
-  }
-
-  #home .homeInfo h2 {
-    font-size: 3rem;
   }
 
   #home .customContainer .homeInfo button {
@@ -230,10 +231,10 @@
 }
 @media (max-width: 750px) {
   #home .homeTittle p,
-  #home .homeTittle p p {
+  #home .homeTittle span {
     font-size: 2rem;
   }
-  #home .homeInfo h2 {
+  #home .homeInfo h1 {
     font-size: 1.6rem;
   }
 

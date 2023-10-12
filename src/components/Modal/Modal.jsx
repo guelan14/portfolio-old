@@ -37,7 +37,6 @@ export default function Modal() {
                 <li>The Complete 2023 Web Development Bootcamp</li>
                 <li>Ultimate AWS Certified Cloud Practitioner – 2023</li>
                 <li>SQL: Creation of databases</li>
-                <li>First steps of frontend development</li>
               </ul>
             </div>
 

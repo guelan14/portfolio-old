@@ -6,9 +6,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export const Contact = () => {
   return (
     <section id="contact">
-      <div className="customTittle text-center">
+      <header className="customTittle text-center">
         <h2>Contact me</h2>
-      </div>
+      </header>
       <div className="contenido">
         <div className="customContainer">
           <div className="contactForm">
