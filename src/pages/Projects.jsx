@@ -236,7 +236,7 @@ export const Projects = () => {
                 <div className="projectLenguajes">
                   <h4>Lenguajes:</h4>
                   <ul>
-                    <li>react</li>
+                    <li>React</li>
                     <li>html </li>
                     <li>css</li>
                     <li>js</li>
@@ -262,6 +262,38 @@ export const Projects = () => {
                         target="__blank"
                       >
                         WebSite
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="projectCard">
+              <div className="projectTittle">
+                <h3>Futbol Tournament</h3>
+              </div>
+              <div className="projectImg">
+                <img src="../../images/futbolDiagram.png" />
+              </div>
+              <div className="projectTecnologies">
+                <div className="projectLenguajes">
+                  <h4>Lenguajes:</h4>
+                  <ul>
+                    <li>Java</li>
+                  </ul>
+                </div>
+                <div className="projectLink">
+                  <h4>Links:</h4>
+                  <ul>
+                    <li>
+                      <a
+                        className="btn btn-outline-light btn-sm"
+                        href="https://github.com/VeraMatiasE/FutbolPOO"
+                        target="__blank"
+                      >
+                        Github
                       </a>
                     </li>
                   </ul>
