@@ -51,6 +51,7 @@ export const About = () => {
                   <li>Html</li>
                   <li>Css</li>
                   <li>Js</li>
+                  <li>Java</li>
                 </ul>
               </div>
               <div className="skillCard skillCard2">
