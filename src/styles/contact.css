@@ -145,8 +145,9 @@
   #contact p {
     font-size: 16px;
   }
+
   #contact {
-    padding: 20px 10px;
+    padding: 20px 10px 10px 10px !important;
   }
 
   #contact .box p {
