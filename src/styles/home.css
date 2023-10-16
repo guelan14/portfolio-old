@@ -232,10 +232,10 @@
 @media (max-width: 750px) {
   #home .homeTittle p,
   #home .homeTittle span {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
   #home .homeInfo h1 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 
   #home .homeInfo {
