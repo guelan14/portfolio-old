@@ -147,7 +147,7 @@ export const Projects = () => {
                     <li>
                       <a
                         className="btn btn-outline-light btn-sm"
-                        href="https://github.com/guelan14/peluqueria-web-complete"
+                        href="https://github.com/guelan14/api-node-blog"
                         target="__blank"
                       >
                         Github
