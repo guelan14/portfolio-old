@@ -351,8 +351,8 @@ export const Projects = () => {
       </div>
 
       <div className="homeStart text-center">
-        <p>About</p>
-        <a href="#about">
+        <p>Contact</p>
+        <a href="#contact">
           <FontAwesomeIcon icon={faArrowDown} />
         </a>
       </div>
