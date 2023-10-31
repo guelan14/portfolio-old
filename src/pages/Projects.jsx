@@ -128,7 +128,7 @@ export const Projects = () => {
                 <h3>Api-Blog</h3>
               </div>
               <div className="projectImg">
-                <img src="../../images/peluqueriaMarlene.png" />
+                <img src="../../images/api-node.png" />
               </div>
               <div className="projectTecnologies">
                 <div className="projectLenguajes">
