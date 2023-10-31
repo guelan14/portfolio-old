@@ -125,6 +125,51 @@ export const Projects = () => {
           <SwiperSlide>
             <div className="projectCard">
               <div className="projectTittle">
+                <h3>Api-Blog</h3>
+              </div>
+              <div className="projectImg">
+                <img src="../../images/peluqueriaMarlene.png" />
+              </div>
+              <div className="projectTecnologies">
+                <div className="projectLenguajes">
+                  <h4>Lenguajes:</h4>
+                  <ul>
+                    <li>JavaScript</li>
+                    <li>Mongoose</li>
+                    <li>Node</li>
+                    <li>Express</li>
+                    <li>Postman</li>
+                  </ul>
+                </div>
+                <div className="projectLink">
+                  <h4>Links:</h4>
+                  <ul>
+                    <li>
+                      <a
+                        className="btn btn-outline-light btn-sm"
+                        href="https://github.com/guelan14/peluqueria-web-complete"
+                        target="__blank"
+                      >
+                        Github
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className="btn btn-outline-light btn-sm"
+                        href="https://www.peluqueriamarlene.com.ar/"
+                        target="__blank"
+                      >
+                        WebSite
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="projectCard">
+              <div className="projectTittle">
                 <h3>Hairdressing Internal System</h3>
               </div>
               <div className="projectImg">
@@ -134,7 +179,7 @@ export const Projects = () => {
                 <div className="projectLenguajes">
                   <h4>Lenguajes:</h4>
                   <ul>
-                    <li>Python</li>
+                    <li>C</li>
                   </ul>
                 </div>
                 <div className="projectLink">
